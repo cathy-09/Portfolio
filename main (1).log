@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.3)  7 NOV 2026 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.3)  7 NOV 2026 16:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1881,7 +1881,7 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
  ***********
 Package rerunfilecheck Info: File `"main (1)".out' has not changed.
-(rerunfilecheck)             Checksum: 65A19809E69659F3EE4F8EC0007B6838;43845.
+(rerunfilecheck)             Checksum: A206B7AC8BC0D45BA592E2466912B2CC;43865.
  )
 (\end occurred inside a group at level 12)
 
@@ -1899,15 +1899,15 @@ Package rerunfilecheck Info: File `"main (1)".out' has not changed.
 ### simple group (level 1) entered at line 9616 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23955 strings out of 467392
- 441662 string characters out of 5420612
+ 23954 strings out of 467392
+ 441649 string characters out of 5420612
  848054 words of memory out of 5000000
- 52581 multiletter control sequences out of 15000+600000
+ 52580 multiletter control sequences out of 15000+600000
  643697 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,11n,104p,3355b,794s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0800.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><D:/texProgram/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "main (1).pdf" (184 pages, 1014574 bytes).
+Output written on "main (1).pdf" (184 pages, 1014576 bytes).
 PDF statistics:
  2219 PDF objects out of 2487 (max. 8388607)
  314 named destinations out of 1000 (max. 500000)
