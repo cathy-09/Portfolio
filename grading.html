@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Оценяване и графици – Катерина Димитрова</title>
+<meta name="description" content="Оценяване на матури, резултати от ДЗИ и учебни графици по български език и литература.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Source+Sans+3:wght@400;600&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{
+  --forest:#0F3D2E; --deep:#0A2A20; --emerald:#1C7C54; --leaf:#4FA36F;
+  --sage:#E3F0E6; --mint:#F4F9F5; --gold:#E2C26B; --ink:#14261D;
+  --muted:#51675A; --line:#CFE2D4; --card:#FFFFFF;
+  --serif:"Literata",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3","Segoe UI",Arial,sans-serif;
+  --shadow:0 12px 32px rgba(15,61,46,.09);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--mint);color:var(--ink);font:17px/1.7 var(--sans)}
+a{color:var(--emerald)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1020px;margin:0 auto;padding:0 28px;position:relative}
+header.top{position:sticky;top:0;background:rgba(10,42,32,.94);backdrop-filter:blur(8px);z-index:5}
+header.top .wrap{display:flex;gap:20px;align-items:center;justify-content:space-between;padding-top:12px;padding-bottom:12px}
+.brand{font:700 17px var(--serif);color:#fff}
+nav{display:flex;gap:20px;flex-wrap:wrap;font-size:15px}
+nav a{color:#CFE6D6;text-decoration:none;padding:2px 0;border-bottom:2px solid transparent}
+nav a:hover{color:#fff;border-color:var(--gold)}
+.hero{position:relative;overflow:hidden;color:#fff;padding:88px 0 96px;
+  background:radial-gradient(900px 500px at 85% 10%,#2A9468 0,transparent 60%),linear-gradient(135deg,var(--deep),var(--forest) 55%,#17604A)}
+.glyph{position:absolute;right:-10px;bottom:-90px;font:700 420px/1 var(--serif);color:rgba(255,255,255,.06);pointer-events:none;user-select:none;letter-spacing:-.04em}
+.hero .wrap{display:grid;grid-template-columns:1fr 260px;gap:56px;align-items:center}
+.hero h1{font:700 clamp(44px,7.5vw,84px)/1.02 var(--serif);margin:0 0 24px;letter-spacing:-.015em}
+.hero h1 span{display:block;width:fit-content;background:linear-gradient(transparent 84%,var(--gold) 84%,var(--gold) 90%,transparent 90%)}
+.hero p.role{font:600 23px/1.4 var(--serif);margin:0 0 10px;color:var(--gold)}
+.hero p.sub{margin:0 0 32px;color:#D5E8DB;max-width:46ch;font-size:19px}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;text-decoration:none;font-weight:600;border:2px solid var(--gold)}
+.btn.fill{background:var(--gold);color:var(--deep)}
+.btn.fill:hover{background:#EED68F}
+.btn.line{color:#fff;border-color:rgba(255,255,255,.55)}
+.btn.line:hover{border-color:#fff}
+.photo{width:260px;height:320px;border-radius:130px 130px 18px 18px;background:#17604A;color:#fff;display:grid;place-items:center;font:700 72px var(--serif);overflow:hidden;border:4px solid var(--gold);box-shadow:0 0 0 12px rgba(226,194,107,.18),0 24px 48px rgba(0,0,0,.35)}
+.photo img{width:100%;height:100%;object-fit:cover}
+section{padding:72px 0 0}
+h2{font:700 34px/1.2 var(--serif);margin:0 0 14px;color:var(--forest)}
+h2::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--emerald),var(--gold));margin-top:12px}
+h2+*{margin-top:26px}
+h3{font:600 20px/1.3 var(--serif);margin:0 0 6px;color:var(--forest)}
+p{margin:0 0 14px}
+.bio{max-width:68ch}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:32px}
+.fact{background:var(--sage);padding:20px;border-radius:16px}
+.fact b{display:block;font:700 26px var(--serif);color:var(--emerald)}
+.fact small{color:var(--muted);font-size:15px;line-height:1.4;display:block}
+.flag{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--forest),#17604A);color:#fff;border-radius:24px;padding:40px;display:grid;grid-template-columns:1fr auto;gap:32px;align-items:start;margin-bottom:28px;box-shadow:var(--shadow)}
+.flag h3{font-size:28px;color:#fff}
+.flag p{color:#D5E8DB;max-width:60ch}
+.badge{display:inline-block;background:var(--gold);color:var(--deep);font-weight:600;font-size:14px;padding:4px 14px;border-radius:999px;margin-bottom:14px}
+.chapters{list-style:none;margin:0;padding:18px 22px;min-width:240px;font-size:15px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:16px}
+.chapters li{padding:9px 0;border-bottom:1px dashed rgba(255,255,255,.25);display:flex;justify-content:space-between;gap:16px}
+.chapters li:last-child{border:0}
+.chapters em{font-style:normal;color:var(--gold)}
+ul.ach{padding:0;margin:0;list-style:none;display:grid;gap:14px}
+ul.ach li{background:var(--card);padding:16px 22px 16px 62px;border-radius:16px;position:relative;box-shadow:var(--shadow)}
+ul.ach li::before{content:"✓";position:absolute;left:20px;top:16px;width:28px;height:28px;border-radius:50%;background:var(--sage);color:var(--emerald);font-weight:700;display:grid;place-items:center;line-height:1}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px}
+.card{background:var(--card);border-radius:20px;padding:26px;display:flex;flex-direction:column;box-shadow:var(--shadow);border-top:5px solid var(--leaf)}
+.card .meta{color:var(--emerald);font-weight:600;font-size:15px;margin-bottom:12px}
+.card p{flex:1;color:var(--muted)}
+.card a.dl{font-weight:600;text-decoration:none;border-bottom:2px solid var(--gold);align-self:flex-start}
+.tablebox{overflow-x:auto;background:var(--card);border-radius:20px;margin-bottom:24px;box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:16px}
+caption{text-align:left;font:600 19px var(--serif);padding:18px 22px;color:var(--forest)}
+th,td{text-align:left;padding:12px 22px;border-top:1px solid var(--line);vertical-align:top}
+th{background:var(--sage);font-weight:600;color:var(--forest)}
+.note{color:var(--muted);font-size:15px}
+.tl{border-left:2px solid var(--leaf);margin:0 0 0 6px;padding:0 0 0 24px}
+.tl article{position:relative;margin-bottom:24px}
+.tl article::before{content:"";position:absolute;left:-33px;top:7px;width:14px;height:14px;background:var(--gold);border:3px solid var(--forest);border-radius:50%}
+.tl .when{color:var(--emerald);font-weight:600;font-size:15px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px 36px}
+.skill span{display:block;font-size:16px;margin-bottom:6px}
+.bar{height:8px;background:var(--sage);border-radius:4px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--emerald),var(--leaf));border-radius:4px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.tags{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.tags li{background:var(--sage);color:var(--forest);padding:6px 16px;border-radius:999px;font-size:15px}
+.contact-box{background:linear-gradient(135deg,var(--forest),#17604A);color:#fff;border-radius:24px;padding:44px;box-shadow:var(--shadow)}
+.contact-box h2{color:#fff}
+.contact-box a.big{display:block;font:600 21px var(--serif);margin-bottom:10px;color:var(--gold);word-break:break-all}
+footer{margin-top:72px;padding:28px 0;background:var(--deep);color:#A9C4B4;font-size:15px;text-align:center}
+@media(max-width:760px){
+  .wrap{padding:0 20px}
+  .hero{padding:56px 0 64px}
+  .hero .wrap,.flag,.two{grid-template-columns:1fr}
+  .photo{width:200px;height:250px;border-radius:100px 100px 14px 14px;order:-1;font-size:56px}
+  .glyph{font-size:260px}
+  .flag,.contact-box{padding:28px}
+  header.top .wrap{flex-direction:column;align-items:flex-start;gap:4px}
+  nav{gap:14px;font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{header.top{display:none}}
+
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;list-style:none;padding:0;margin:0 0 24px;font-size:15px;color:var(--muted)}
+.legend li{display:flex;align-items:center;gap:8px}
+.legend i{width:16px;height:16px;border-radius:4px;display:inline-block}
+.sched table{table-layout:fixed;min-width:780px;font-size:15px;text-align:center}
+.sched caption{font-size:20px}
+.sched th,.sched td{padding:9px 6px;text-align:center}
+.sched thead th{font-size:14px}
+.sched tbody th[scope=row]{text-align:left;padding-left:16px;background:transparent;font-weight:600;width:96px}
+.sched tr.cls th{background:var(--sage);text-align:left;padding-left:16px;font:600 15px var(--sans)}
+.sched td{font-weight:600;color:var(--ink)}
+.sched td.off{color:#9DB3A5;font-weight:400}
+.g11a,.legend .g11a{background:#CFEAB8}.g11b,.legend .g11b{background:#9ED8F2}
+.g12a,.legend .g12a{background:#F8CFA3}.g12b,.legend .g12b{background:#F4A9A2}
+.j11,.legend .j11{background:#CFCFF6}.j12,.legend .j12{background:#FFF1B0}
+.sched td.j11,.sched td.j12{vertical-align:middle}
+
+.profile{display:grid;grid-template-columns:1fr 290px;gap:48px;align-items:start}
+.profile .bio{font-size:18px;line-height:1.75;max-width:none}
+.side{border-left:3px solid var(--leaf);padding-left:30px}
+.side .name{font:700 28px/1.2 var(--serif);color:var(--forest);margin-bottom:20px}
+.side dl{margin:0}
+.side dt{color:var(--muted);font-size:15px}
+.side dd{margin:0 0 16px;font-weight:700;color:var(--ink)}
+.edu{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:8px 36px}
+.entry{padding:24px 0;border-bottom:1px solid var(--line)}
+.entry:last-child{border-bottom:0}
+.entry .head{display:flex;justify-content:space-between;gap:8px 20px;flex-wrap:wrap;align-items:baseline}
+.entry .title{font:700 20px var(--serif);color:var(--forest)}
+.entry .date{font-size:15px;color:var(--muted)}
+.entry .inst{color:var(--emerald);font-weight:600;margin:2px 0 8px}
+.entry .lines{margin:0;line-height:1.7}
+@media(max-width:760px){
+  .profile{grid-template-columns:1fr;gap:28px}
+  .side{border-left:0;border-top:3px solid var(--leaf);padding:24px 0 0}
+  .edu{padding:4px 22px}
+}
+
+ul.bul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+ul.bul li{position:relative;padding-left:26px;line-height:1.6}
+ul.bul li::before{content:"";position:absolute;left:4px;top:.62em;width:9px;height:9px;border-radius:50%;background:var(--leaf);box-shadow:0 0 0 3px var(--sage)}
+ul.bul li b{color:var(--forest)}
+ul.bul li.grade{padding-left:0;margin:2px 0}
+ul.bul li.grade::before{display:none}
+ul.bul li.grade span{display:inline-block;background:var(--gold);color:var(--deep);font-weight:700;font-size:15px;padding:3px 14px;border-radius:999px}
+ul.bul.big{gap:16px}
+ul.bul.big li{background:var(--card);padding:18px 22px 18px 52px;border-radius:16px;box-shadow:var(--shadow);font-size:18px;line-height:1.7}
+ul.bul.big li::before{left:22px;top:1.45em}
+.sidehead{font:600 15px var(--sans);color:#fff;background:var(--emerald);display:inline-block;padding:3px 14px;border-radius:999px;margin:0 0 16px}
+.entry .title{margin:0}
+.entry{border-left:4px solid var(--leaf);padding:20px 0 20px 24px;margin:16px 0;border-bottom:0}
+.edu{background:transparent;box-shadow:none;padding:0}
+.entry{background:var(--card);border-radius:0 18px 18px 0;box-shadow:var(--shadow);padding:22px 28px}
+.entry .inst{font:600 17px var(--serif);margin:4px 0 0}.entry .inst+ul{margin-top:12px}.entry .head+ul{margin-top:12px}
+@media(max-width:760px){.entry{padding:18px 18px}}
+
+.grouphead{font:700 22px var(--serif);color:var(--forest);margin:36px 0 16px;display:flex;align-items:center;gap:12px}
+.grouphead::before{content:"";width:28px;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--emerald),var(--gold))}
+
+.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;align-items:start;margin-bottom:20px}
+.sgrid.two-cols{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.scard{background:var(--card);border-radius:20px;padding:26px 28px;box-shadow:var(--shadow);border-top:5px solid var(--leaf)}
+.scard h3{font:700 21px var(--serif);margin:0 0 18px;color:var(--forest)}
+.scard .skill{margin-bottom:18px}
+.scard .skill:last-child{margin-bottom:0}
+.scard .skill span{font-size:16px;line-height:1.45}
+.scard .skill.lang span{font-weight:600}
+.scard .bar{height:10px}
+
+.sgrid.two-cols{grid-template-columns:1fr 1fr;align-items:stretch}
+@media(max-width:700px){.sgrid.two-cols{grid-template-columns:1fr}}
+
+.contact-box{display:grid;grid-template-columns:1fr 1.25fr;gap:40px;align-items:center;position:relative;overflow:hidden;padding:48px}
+.contact-box::after{content:"@";position:absolute;right:-20px;bottom:-110px;font:700 340px/1 var(--serif);color:rgba(255,255,255,.05);pointer-events:none}
+.c-text p{color:#D5E8DB;font-size:18px;margin-bottom:24px}
+.c-tiles{display:grid;gap:14px;position:relative;z-index:1}
+.tile{display:flex;align-items:center;gap:16px;padding:14px 18px;border-radius:16px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);text-decoration:none;color:#fff}
+.tile:hover{background:rgba(255,255,255,.15);border-color:var(--gold)}
+.tile .ico{flex:none;width:46px;height:46px;border-radius:50%;background:var(--gold);color:var(--deep);display:grid;place-items:center}
+.tile .ico.in{font:700 18px var(--serif)}
+.tile small{display:block;color:#A9C4B4;font-size:13px;line-height:1.3}
+.tile b{display:block;font:600 18px/1.35 var(--serif);word-break:break-all}
+footer{margin-top:72px;padding:56px 0 0;background:var(--deep);color:#A9C4B4;text-align:left;font-size:16px}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1.2fr;gap:40px;padding-bottom:36px}
+.f-brand{font:700 24px var(--serif);color:#fff;margin-bottom:10px}
+.f-grid p{margin:0;max-width:36ch}
+footer b{display:block;color:var(--gold);font:600 15px var(--sans);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+footer nav{display:block}
+footer a{display:block;color:#CFE6D6;text-decoration:none;padding:3px 0;font-size:16px;word-break:break-all}
+footer a:hover{color:#fff;text-decoration:underline}
+.f-bottom{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:18px;padding-bottom:22px;border-top:1px solid rgba(255,255,255,.14);font-size:14px}
+.f-bottom a{display:inline;font-size:14px}
+@media(max-width:760px){.contact-box{grid-template-columns:1fr;padding:30px 22px;gap:28px}.f-grid{grid-template-columns:1fr;gap:28px}}
+
+.contact-box{grid-template-columns:1fr;gap:34px;padding:48px}
+.c-text{display:grid;grid-template-columns:1fr auto;gap:10px 32px;align-items:center}
+.c-text h2{grid-column:1/-1;margin:0}
+.c-text p{margin:0;max-width:54ch}
+.c-tiles{grid-template-columns:1fr 1fr;gap:16px}
+.tile{padding:18px 20px;min-height:84px}
+.tile b{color:var(--gold)}
+.tile:hover b{color:#F3DE9B}
+footer a{color:var(--gold)}
+footer a:hover{color:#F3DE9B}
+.f-grid{grid-template-columns:1.3fr 1fr 1.3fr;align-items:start}
+.f-contact a,footer nav a{border-bottom:1px solid transparent;width:fit-content}
+.f-contact a:hover,footer nav a:hover{border-color:var(--gold);text-decoration:none}
+@media(max-width:760px){
+  .contact-box{padding:30px 22px;gap:24px}
+  .c-text{grid-template-columns:1fr}
+  .c-tiles{grid-template-columns:1fr}
+  .f-grid{grid-template-columns:1fr}
+}
+
+.hero.mini{padding:64px 0 72px}
+.hero.mini .wrap{grid-template-columns:1fr}
+.hero.mini h1{font-size:clamp(40px,6.5vw,72px)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:0 0 28px}
+.stat{background:var(--card);border-radius:20px;padding:22px 24px;box-shadow:var(--shadow);border-top:5px solid var(--gold)}
+.stat b{display:block;font:700 40px/1.1 var(--serif);color:var(--emerald)}
+.stat small{display:block;color:var(--muted);font-size:15px;line-height:1.4;margin-top:6px}
+.scale{list-style:none;margin:0 0 28px;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.scale li{padding:14px 18px;border-radius:14px;background:var(--card);box-shadow:var(--shadow);border-left:6px solid var(--leaf)}
+.scale b{display:block;font:700 17px var(--serif);color:var(--forest)}
+.scale span{font-size:15px;color:var(--muted)}
+.scale .s1{border-color:#E08A83}.scale .s2{border-color:#EDB872}.scale .s3{border-color:#E2C26B}.scale .s4{border-color:#9ED8B0}.scale .s5{border-color:#4FA36F}.scale .s6{border-color:#0F3D2E}
+.gr table{min-width:880px;table-layout:auto;font-size:14.5px;text-align:center}
+.gr.dz table{min-width:620px;font-size:16px}
+.gr caption{font-size:20px}
+.gr th,.gr td{padding:8px 6px;text-align:center;border-top:1px solid var(--line)}
+.gr thead th{font-size:14px;white-space:nowrap}
+.gr tbody th[scope=row]{background:var(--sage);color:var(--forest);width:42px;position:sticky;left:0}
+.gr td{font-variant-numeric:tabular-nums}
+.gr td.a{background:#B5E2C3}.gr td.b{background:#D2EEDA}.gr td.c{background:#E7F5EB}.gr td.d{background:#F6F6DF}.gr td.e{background:#FBE9C9}.gr td.z{background:#F4B8B3;color:#7A1F18;font-weight:600}
+.gr td.res{font-weight:700;background:var(--sage);color:var(--forest);white-space:nowrap}
+.gr tr.tot th,.gr tr.tot td{background:var(--forest);color:#fff;font-weight:700;border-top:1px solid var(--forest)}
+.gr tr.tot th{text-align:right;padding-right:14px;position:static;width:auto}
+.gb{display:inline-block;background:var(--gold);color:var(--deep);padding:1px 10px;border-radius:999px}
+.legend i.a{background:#B5E2C3}.legend i.b{background:#D2EEDA}.legend i.c{background:#E7F5EB;border:1px solid var(--line)}.legend i.d{background:#F6F6DF;border:1px solid var(--line)}.legend i.e{background:#FBE9C9}.legend i.z{background:#F4B8B3}
+.gr.pm table{min-width:560px;font-size:16px}
+.gr td.h1{background:#F4837D;color:#5E120D;font-weight:700}.gr td.h2{background:#F9B57A;font-weight:700}.gr td.h3{background:#F7E27E;font-weight:700}.gr td.h4{background:#D6E58B;font-weight:700}.gr td.h5{background:#98CF8A;font-weight:700}.gr td.h6{background:#63BE7B;font-weight:700}
+</style>
+</head>
+<body id="top">
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html" style="text-decoration:none">Катерина Димитрова</a>
+  <nav aria-label="Навигация">
+    <a href="index.html">← Начало</a><a href="#matura">Оценяване на матури</a><a href="#proba">Пробна матура</a><a href="#dzi">Резултати от ДЗИ</a><a href="#schedules">Графици</a><a href="#contact">Контакти</a>
+  </nav></div></header>
+<main>
+<div class="hero mini"><div class="glyph" aria-hidden="true">6,00</div><div class="wrap"><div>
+  <h1><span>Оценяване</span><span>и графици</span></h1>
+  <p class="role">Резултати, скала и учебни графици</p>
+  <p class="sub">Пробни матури, резултати от ДЗИ и седмичните ми графици по български език и литература.</p>
+</div></div></div>
+<div class="wrap">
+
+<section id="matura">
+  <h2>Оценяване на матури</h2>
+  <p class="bio">Резултати от матурите M1–M15 за 12. клас и M1–M7 за 11. клас, оценени по единната скала за НВО и ДЗИ.</p>
+  <div class="stats">
+    <div class="stat"><b>94,15</b><small>12 клас, общ резултат · оценка 5,89 / 5,96</small></div>
+    <div class="stat"><b>95,04</b><small>11 клас, общ резултат · оценка 5,94 / 6,00</small></div>
+  </div>
+  <h3 class="grouphead">Единна скала за оценяване (НВО и ДЗИ)</h3>
+  <ul class="scale"><li class="s1"><b>Слаб</b><span>0 – 29,75 точки</span></li><li class="s2"><b>Среден</b><span>30 – 40,5 точки</span></li><li class="s3"><b>Добър</b><span>40,5 – 62,25 точки</span></li><li class="s4"><b>Много добър</b><span>62,5 – 83,75 точки</span></li><li class="s5"><b>Отличен</b><span>84 – 94,75 точки</span></li><li class="s6"><b>Отличен 6,00</b><span>95 т. – 100 точки</span></li></ul>
+  <ul class="legend" aria-label="Цветове на резултатите"><li><i class="a"></i>100</li><li><i class="b"></i>95 – 99,5</li><li><i class="c"></i>90 – 94,5</li><li><i class="d"></i>85 – 89,5</li><li><i class="e"></i>под 85</li><li><i class="z"></i>0 т.</li></ul>
+  <div class="tablebox gr"><table><caption>12 клас</caption><thead><tr><th scope="col">№</th><th scope="col">M1</th><th scope="col">M2</th><th scope="col">M3</th><th scope="col">M4</th><th scope="col">M5</th><th scope="col">M6</th><th scope="col">M7</th><th scope="col">M8</th><th scope="col">M9</th><th scope="col">M10</th><th scope="col">M11</th><th scope="col">M12</th><th scope="col">M13</th><th scope="col">M14</th><th scope="col">M15</th><th scope="col">Резултат</th><th scope="col">Оценка</th></tr></thead><tbody><tr><th scope="row">1</th><td class="e">84,5</td><td class="d">88</td><td class="c">90,5</td><td class="d">89</td><td class="b">97</td><td class="d">89</td><td class="e">80</td><td class="e">80</td><td class="c">90,5</td><td class="c">93</td><td class="c">90</td><td class="b">98</td><td class="b">96</td><td class="b">95,5</td><td class="b">96</td><td class="res">90,47</td><td class="res">5,72</td></tr><tr><th scope="row">2</th><td class="d">86</td><td class="d">88</td><td class="c">90</td><td class="d">88</td><td class="b">96</td><td class="b">97,5</td><td class="c">92</td><td class="d">88</td><td class="d">89,5</td><td class="d">89</td><td class="c">94</td><td class="c">90</td><td class="c">90</td><td class="c">93,5</td><td class="b">96</td><td class="res">91,17</td><td class="res">5,79</td></tr><tr><th scope="row">3</th><td class="b">97</td><td class="a">100</td><td class="a">100</td><td class="b">98</td><td class="a">100</td><td class="a">100</td><td class="b">96</td><td class="a">100</td><td class="a">100</td><td class="b">99</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="res">99,40</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">4</th><td class="d">89</td><td class="a">100</td><td class="e">84</td><td class="d">89</td><td class="b">98</td><td class="c">92</td><td class="c">90</td><td class="d">86,5</td><td class="b">95</td><td class="d">87,5</td><td class="c">90</td><td class="b">96</td><td class="c">90</td><td class="a">100</td><td class="d">89</td><td class="res">91,73</td><td class="res">5,84</td></tr><tr><th scope="row">5</th><td class="b">98</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="b">99,5</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="res">99,83</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">6</th><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="res">100,00</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">7</th><td class="b">96</td><td class="b">96</td><td class="a">100</td><td class="b">97,5</td><td class="b">98</td><td class="c">91,5</td><td class="b">98</td><td class="c">92</td><td class="c">90</td><td class="c">94</td><td class="b">95,5</td><td class="e">84</td><td class="b">95,5</td><td class="a">100</td><td class="b">98</td><td class="res">95,07</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">8</th><td class="d">85</td><td class="d">86</td><td class="c">91,5</td><td class="b">99,5</td><td class="b">98</td><td class="c">94,5</td><td class="c">92,5</td><td class="c">93</td><td class="c">94</td><td class="b">98</td><td class="c">94</td><td class="b">99,5</td><td class="c">93,5</td><td class="c">93,5</td><td class="b">96</td><td class="res">93,90</td><td class="res">5,94</td></tr><tr><th scope="row">9</th><td class="d">89</td><td class="d">85,5</td><td class="c">94</td><td class="b">96</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="c">90</td><td class="b">96</td><td class="d">89,5</td><td class="d">86</td><td class="d">88</td><td class="a">100</td><td class="b">99,5</td><td class="c">92</td><td class="res">93,70</td><td class="res">5,93</td></tr><tr><th scope="row">10</th><td class="d">85,5</td><td class="c">94</td><td class="b">97,5</td><td class="b">98</td><td class="b">97</td><td class="c">93,5</td><td class="e">79,5</td><td class="d">85</td><td class="b">95</td><td class="b">96</td><td class="b">99,5</td><td class="c">94,5</td><td class="c">93,5</td><td class="c">94,5</td><td class="d">89</td><td class="res">92,80</td><td class="res">5,87</td></tr><tr><th scope="row">11</th><td class="d">85</td><td class="d">87,5</td><td class="c">94</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="d">86</td><td class="b">95,5</td><td class="d">88</td><td class="d">88</td><td class="b">95,5</td><td class="c">93,5</td><td class="c">93,5</td><td class="c">94,5</td><td class="res">93,40</td><td class="res">5,92</td></tr><tr><th scope="row">12</th><td class="d">85</td><td class="d">89,5</td><td class="c">94</td><td class="b">95,5</td><td class="b">96</td><td class="b">98</td><td class="c">94</td><td class="c">94,5</td><td class="c">92</td><td class="e">84</td><td class="b">96</td><td class="b">99,5</td><td class="c">94,5</td><td class="c">94,5</td><td class="c">93</td><td class="res">93,33</td><td class="res">5,91</td></tr><tr><th scope="row">13</th><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="d">87,5</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="b">98</td><td class="b">98</td><td class="a">100</td><td class="b">97</td><td class="res">98,70</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">14</th><td class="e">77,5</td><td class="e">74</td><td class="d">88</td><td class="d">89</td><td class="d">89</td><td class="d">88</td><td class="e">75</td><td class="e">83,5</td><td class="c">91</td><td class="e">78</td><td class="e">75</td><td class="c">93</td><td class="c">94</td><td class="b">96</td><td class="e">78,5</td><td class="res">84,63</td><td class="res">5,52</td></tr><tr class="tot"><th scope="row" colspan="16">Общо</th><td>94,15</td><td>5,89</td></tr><tr class="tot"><th scope="row" colspan="16">Общо</th><td>94,15</td><td>5,96</td></tr></tbody></table></div>
+  <div class="tablebox gr"><table><caption>11 клас</caption><thead><tr><th scope="col">№</th><th scope="col">M1</th><th scope="col">M2</th><th scope="col">M3</th><th scope="col">M4</th><th scope="col">M5</th><th scope="col">M6</th><th scope="col">M7</th><th scope="col">Резултат</th><th scope="col">Оценка</th></tr></thead><tbody><tr><th scope="row">1</th><td class="d">87,5</td><td class="c">94</td><td class="b">95,5</td><td class="z">0т.</td><td class="e">84,5</td><td class="c">93,5</td><td class="z">0т.</td><td class="res">91,00</td><td class="res">5,79</td></tr><tr><th scope="row">2</th><td class="b">97</td><td class="b">96</td><td class="b">96</td><td class="d">88</td><td class="z">0т.</td><td class="a">100</td><td class="z">0т.</td><td class="res">95,40</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">3</th><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="res">100,00</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">4</th><td class="b">95,5</td><td class="b">99,5</td><td class="b">99,5</td><td class="b">97</td><td class="z">0т.</td><td class="d">88,5</td><td class="z">0т.</td><td class="res">96,00</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">5</th><td class="b">97</td><td class="z">0т.</td><td class="c">94</td><td class="a">100</td><td class="d">89</td><td class="c">91,5</td><td class="z">0т.</td><td class="res">94,30</td><td class="res">5,97</td></tr><tr><th scope="row">6</th><td class="d">88</td><td class="b">97</td><td class="d">87,5</td><td class="z">0т.</td><td class="d">87</td><td class="z">0т.</td><td class="c">91,75</td><td class="res">90,25</td><td class="res">5,73</td></tr><tr><th scope="row">7</th><td class="a">100</td><td class="b">95,5</td><td class="b">96</td><td class="b">99,5</td><td class="c">94</td><td class="d">88</td><td class="z">0т.</td><td class="res">95,50</td><td class="res"><span class="gb">6,00</span></td></tr><tr><th scope="row">8</th><td class="b">95,5</td><td class="z">0т.</td><td class="b">99,5</td><td class="b">95,5</td><td class="c">92,75</td><td class="d">89</td><td class="z">0т.</td><td class="res">94,45</td><td class="res">5,99</td></tr><tr><th scope="row">9</th><td class="b">96</td><td class="c">94</td><td class="c">94</td><td class="z">0т.</td><td class="d">89,65</td><td class="b">95,5</td><td class="z">0т.</td><td class="res">93,83</td><td class="res">5,94</td></tr><tr><th scope="row">10</th><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="a">100</td><td class="b">99,5</td><td class="a">100</td><td class="b">98</td><td class="res">99,64</td><td class="res"><span class="gb">6,00</span></td></tr><tr class="tot"><th scope="row" colspan="8">Общо</th><td>95,04</td><td>5,94</td></tr><tr class="tot"><th scope="row" colspan="8">Общо</th><td>95,04</td><td>6,00</td></tr></tbody></table></div>
+</section>
+
+<section id="proba">
+  <h2>Пробна матура</h2>
+  <p class="bio">Резултати от пробната матура по номерче на ученика. Максималният резултат е 100 точки, което отговаря на оценка 6.</p>
+  <div class="stats">
+    <div class="stat"><b>73,10</b><small>12 клас, средно · оценка 4,95</small></div>
+    <div class="stat"><b>78,00</b><small>11 клас, средно · оценка 5,18</small></div>
+  </div>
+  <div class="tablebox gr pm"><table><caption>12 клас</caption><thead><tr><th scope="col">№</th><th scope="col">Номерче</th><th scope="col">Резултат</th><th scope="col">Оценка</th><th scope="col">Есе/Интерпрет.</th></tr></thead><tbody><tr><th scope="row">1</th><td>1245AW</td><td class="h3">73,75</td><td class="h3">4,97</td><td>Интерпретация</td></tr><tr><th scope="row">2</th><td>1223TU</td><td class="h3">68,5</td><td class="h3">4,75</td><td>Есе</td></tr><tr><th scope="row">3</th><td>1200IE</td><td class="h5">93</td><td class="h5">5,88</td><td>Интерпретация</td></tr><tr><th scope="row">4</th><td>1263OO</td><td class="h3">70,6</td><td class="h3">4,84</td><td>Есе</td></tr><tr><th scope="row">5</th><td>1287MN</td><td class="h6">98</td><td class="h6">6,00</td><td>Интерпретация</td></tr><tr><th scope="row">6</th><td>1231RV</td><td class="h5">89,8</td><td class="h5">5,71</td><td>Интерпретация</td></tr><tr><th scope="row">7</th><td>1277ZS</td><td class="h3">70,95</td><td class="h3">4,85</td><td>Интерпретация</td></tr><tr><th scope="row">8</th><td>1226YT</td><td class="h3">67,75</td><td class="h3">4,71</td><td>Есе</td></tr><tr><th scope="row">9</th><td>1299KL</td><td class="h4">75,5</td><td class="h4">5,06</td><td>Интерпретация</td></tr><tr><th scope="row">10</th><td>1293AD</td><td class="h2">62</td><td class="h2">4,47</td><td>Есе</td></tr><tr><th scope="row">11</th><td>1264BD</td><td class="h3">69,1</td><td class="h3">4,77</td><td>Есе</td></tr><tr><th scope="row">12</th><td>1268KJ</td><td class="h3">67</td><td class="h3">4,68</td><td>Интерпретация</td></tr><tr><th scope="row">13</th><td>1240OF</td><td class="h3">70,75</td><td class="h3">4,85</td><td>Есе</td></tr><tr><th scope="row">14</th><td>1255QX</td><td class="h1">46,65</td><td class="h1">3,75</td><td>Интерпретация</td></tr><tr class="tot"><th scope="row" colspan="2">Средно</th><td>73,10</td><td>4,95</td><td></td></tr></tbody></table></div>
+  <div class="tablebox gr pm"><table><caption>11 клас</caption><thead><tr><th scope="col">№</th><th scope="col">Номерче</th><th scope="col">Резултат</th><th scope="col">Оценка</th><th scope="col">Есе/Интерпрет.</th></tr></thead><tbody><tr><th scope="row">1</th><td>1155OL</td><td class="h5">87,45</td><td class="h5">5,59</td><td>Интерпретация</td></tr><tr><th scope="row">2</th><td>1190GT</td><td class="h3">73</td><td class="h3">4,95</td><td>Интерпретация</td></tr><tr><th scope="row">3</th><td>1143PL</td><td class="h4">84,75</td><td class="h4">5,53</td><td>Есе</td></tr><tr><th scope="row">4</th><td>1111YY</td><td class="h3">73,5</td><td class="h3">4,95</td><td>Интерпретация</td></tr><tr><th scope="row">5</th><td>1144LL</td><td class="h1">48</td><td class="h1">3,82</td><td>Есе</td></tr><tr><th scope="row">6</th><td>1100DE</td><td class="h4">79,75</td><td class="h4">5,26</td><td>Интерпретация</td></tr><tr><th scope="row">7</th><td>1139HK</td><td class="h3">72</td><td class="h3">4,90</td><td>Есе</td></tr><tr><th scope="row">8</th><td>1154UL</td><td class="h4">84,5</td><td class="h4">5,52</td><td>Интерпретация</td></tr><tr><th scope="row">9</th><td>1127SV</td><td class="h4">80,5</td><td class="h4">5,28</td><td>Интерпретация</td></tr><tr><th scope="row">10</th><td>1194WR</td><td class="h6">96,5</td><td class="h6">6,00</td><td>Интерпретация</td></tr><tr class="tot"><th scope="row" colspan="2">Средно</th><td>78,00</td><td>5,18</td><td></td></tr></tbody></table></div>
+</section>
+
+<section id="dzi">
+  <h2>Резултати от ДЗИ</h2>
+  <p class="bio">Очакван и постигнат резултат на учениците ми от 12. клас на държавния зрелостен изпит по български език и литература.</p>
+  <div class="stats">
+    <div class="stat"><b>53</b><small>Брой отлични 6,00 БГ</small></div>
+    <div class="stat"><b>8</b><small>Брой отлични 6,00 - 100т. при мен</small></div>
+    <div class="stat"><b>15%</b><small>Процент</small></div>
+  </div>
+  <div class="tablebox gr dz"><table><caption>12 клас – резултати от ДЗИ</caption><thead><tr><th scope="col">№</th><th scope="col">Очакван резултат</th><th scope="col">Очакван резултат от ученика</th><th scope="col">Есе/Интерпрет.</th><th scope="col">Резултат</th><th scope="col">Оценка</th></tr></thead><tbody><tr><th scope="row">1</th><td>92</td><td>95</td><td>Интерпретация</td><td class="b">98</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">2</th><td>89</td><td>92</td><td>Есе</td><td class="c">91,5</td><td class="res">Отличен 5,84</td></tr><tr><th scope="row">3</th><td>100</td><td>100</td><td>Интерпретация</td><td class="a">100</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">4</th><td>92</td><td>96</td><td>Интерпретация</td><td class="a">100</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">5</th><td>100</td><td>100</td><td>Интерпретация</td><td class="a">100</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">6</th><td>100</td><td>100</td><td>Интерпретация</td><td class="a">100</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">7</th><td>90</td><td>96</td><td>Интерпретация</td><td class="a">100</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">8</th><td>90</td><td>95</td><td>Интерпретация</td><td class="b">98</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">9</th><td>90</td><td>95</td><td>Есе</td><td class="c">92,75</td><td class="res">Отличен 5,89</td></tr><tr><th scope="row">10</th><td>96</td><td>96</td><td>Интерпретация</td><td class="a">100</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">11</th><td>96</td><td>95</td><td>Интерпретация</td><td class="a">100</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">12</th><td>90</td><td>95</td><td>Есе</td><td class="b">96</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">13</th><td>100</td><td>100</td><td>Интерпретация</td><td class="a">100</td><td class="res">Отличен <span class="gb">6,00</span></td></tr><tr><th scope="row">14</th><td>84</td><td>98</td><td>Интерпретация</td><td class="b">96,5</td><td class="res">Отличен <span class="gb">6,00</span></td></tr></tbody></table></div>
+</section>
+
+<section id="schedules">
+  <h2>Учебни графици</h2>
+  <p class="bio">Седмични графици по български език и литература за 11. и 12. клас през септември и октомври. Всеки ученик има точен час, а общите занятия на двете групи са отбелязани в лилаво и жълто.</p>
+  <ul class="legend" aria-label="Легенда">
+    <li><i class="g11a"></i>11 клас, Група 1</li><li><i class="g11b"></i>11 клас, Група 2</li><li><i class="j11"></i>11 клас, общо</li>
+    <li><i class="g12a"></i>12 клас, Група 1</li><li><i class="g12b"></i>12 клас, Група 2</li><li><i class="j12"></i>12 клас, общо</li>
+  </ul>
+  <h3 class="grouphead">Септември</h3>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 1 – 6 септември</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g11a">8:00–10:00</td><td class="g11a">18:00–20:00</td><td class="g11a">8:00–10:00</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g11b">10:00–12:00</td><td class="off">–</td><td class="g11b">10:00–12:00</td><td class="g11b">18:00–20:00</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12a">8:00–10:00</td><td class="g12a">20:00–22:00</td><td class="g12a">8:00–10:00</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12b">20:00–22:00</td><td class="g12b">10:00–12:00</td><td class="off">–</td><td class="g12b">10:00–12:00</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 7 – 13 септември</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="g11a">18:00–20:00</td><td class="g11a">8:00–10:00</td><td class="off">–</td><td class="g11a">10:00–12:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="g11b">8:00–10:00</td><td class="g11b">18:00–20:00</td><td class="g11b">8:00–10:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="g12a">10:00–12:00</td><td class="off">–</td><td class="off">–</td><td class="g12a">10:00–12:00</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="g12b">10:00–12:00</td><td class="off">–</td><td class="g12b">18:00–20:00</td><td class="g12b">18:00–20:00</td><td class="g12b">8:00–10:00</td><td class="off">–</td><td class="off">–</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 14 – 20 септември</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="g11a">8:00–10:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g11a">8:00–10:00</td><td class="g11a">8:00–10:00</td></tr>
+      <tr><th scope="row">Група 2</th><td class="g11b">10:00–12:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g11b">10:00–12:00</td><td class="g11b">10:00–12:00</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="g12a">18:00–20:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12a">18:00–20:00</td><td class="g12a">18:00–20:00</td></tr>
+      <tr><th scope="row">Група 2</th><td class="g12b">16:00–18:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12b">16:00–18:00</td><td class="g12b">16:00–18:00</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 21 – 27 септември</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="g11a">20:00–22:00</td><td class="off">–</td><td class="g11a">22:00–00:00</td><td class="off">–</td><td class="g11a">8:00–10:00</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="g11b">20:00–22:00</td><td class="off">–</td><td class="g11b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="g11b">10:00–12:00</td><td class="off">–</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="g12a">22:00–00:00</td><td class="g12a">20:00–22:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12a">18:00–20:00</td></tr>
+      <tr><th scope="row">Група 2</th><td class="g12b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="g12b">20:00–22:00</td><td class="off">–</td><td class="off">–</td><td class="g12b">16:00–18:00</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 28 септември – 4 октомври</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="g11a">22:00–00:00</td><td class="g11a">20:00–22:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="g11b">20:00–22:00</td><td class="g11b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="g12a">18:00–20:00</td><td class="g12a">18:00–20:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="g12b">18:00–20:00</td><td class="off">–</td><td class="g12b">20:00–22:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+    </tbody>
+  </table></div>
+  <h3 class="grouphead">Октомври</h3>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 5 – 11 октомври</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="g11a">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g11a">22:00–00:00</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="g11b">22:00–00:00</td><td class="off">–</td><td class="g11b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="off">–</td><td class="g12a">20:00–22:00</td><td class="off">–</td><td class="off">–</td><td class="g12a">6:00–8:00</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="off">–</td><td class="g12b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12b">6:00–8:00</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 12 – 18 октомври</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="off">–</td><td class="g11a">20:00–22:00</td><td class="off">–</td><td class="off">–</td><td class="g11a">6:00–8:00</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="off">–</td><td class="g11b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g11b">6:00–8:00</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="g12a">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12a">22:00–00:00</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="g12b">22:00–00:00</td><td class="off">–</td><td class="g12b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 19 – 25 октомври</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="g11a">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="j11" rowspan="2">6:00–8:00</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="g11b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="off">–</td><td class="g12a">20:00–22:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="j12" rowspan="2">6:00–8:00</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="off">–</td><td class="g12b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tablebox sched"><table>
+    <caption>Седмица: 26 октомври – 1 ноември</caption>
+    <thead><tr><th scope="col">Група</th><th scope="col">Понеделник</th><th scope="col">Вторник</th><th scope="col">Сряда</th><th scope="col">Четвъртък</th><th scope="col">Петък</th><th scope="col">Събота</th><th scope="col">Неделя</th></tr></thead>
+    <tbody>
+      <tr class="cls"><th colspan="8" scope="colgroup">11 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="off">–</td><td class="g11a">20:00–22:00</td><td class="off">–</td><td class="off">–</td><td class="j11" rowspan="2">6:00–8:00</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="off">–</td><td class="g11b">22:00–00:00</td><td class="off">–</td><td class="off">–</td><td class="off">–</td></tr>
+      <tr class="cls"><th colspan="8" scope="colgroup">12 клас</th></tr>
+      <tr><th scope="row">Група 1</th><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12a">22:00–00:00</td><td class="off">–</td><td class="j12" rowspan="2">8:00–10:00</td><td class="off">–</td></tr>
+      <tr><th scope="row">Група 2</th><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="off">–</td><td class="g12b">22:00–00:00</td><td class="off">–</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Часовете са по график за съответната седмица и могат да се променят по договорка с учениците.</p>
+</section>
+
+<section id="contact">
+  <div class="contact-box">
+    <div class="c-text">
+      <h2>Контакти</h2>
+      <p>Пишете ми за уроци, подготовка за изпит или за сътрудничество по учебни материали.</p>
+      <a class="btn fill" href="mailto:dimitrovakaterina780@gmail.com">Изпрати имейл</a>
+    </div>
+    <div class="c-tiles">
+      <a class="tile" href="mailto:dimitrovakaterina780@gmail.com"><span class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span><small>Имейл</small><b>dimitrovakaterina780@gmail.com</b></span></a>
+      <a class="tile" href="tel:+359876741252"><span class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span><span><small>Телефон</small><b>+359 876 741 252</b></span></a>
+      <!-- Заменете с вашите профили -->
+      <a class="tile" href="https://github.com/cathy-09"><span class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 6l-3 12"/></svg></span><span><small>Проекти</small><b>GitHub</b></span></a>
+      <a class="tile" href="https://cathy-09.github.io"><span class="ico web">🌐</span><span><small>Личен сайт</small><b>Portfolio</b></span></a>
+    </div>
+  </div>
+</section>
+</div>
+</main>
+<footer>
+  <div class="wrap f-grid">
+    <div>
+      <div class="f-brand">Катерина Димитрова</div>
+      <p>Учител по български език и литература. Индивидуална подготовка, учебни планове и авторски учебник.</p>
+    </div>
+    <nav aria-label="Навигация в долната част">
+      <b>Секции</b>
+      <a href="index.html#about">Профил</a>
+      <a href="index.html#education">Образование</a>
+      <a href="index.html#achievements">Постижения</a>
+      <a href="index.html#projects">Проекти</a>
+      <a href="#schedules">Учебни графици</a>
+    </nav>
+    <div class="f-contact">
+      <b>Връзка</b>
+      <a href="mailto:dimitrovakaterina780@gmail.com">dimitrovakaterina780@gmail.com</a>
+      <a href="tel:+359876741252">+359 876 741 252</a>
+    </div>
+  </div>
+  <div class="wrap f-bottom"><span>© 2026 Катерина Димитрова. Всички права запазени.</span><a href="#top">Към началото ↑</a></div>
+</footer>
+</body></html>
