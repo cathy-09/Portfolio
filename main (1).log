@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.3)  5 NOV 2026 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.3)  7 NOV 2026 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -814,7 +814,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 ...ё СЃРјСЉСЂС‚С‚Р°}{67}{subsubsection.3.1.4}
+l.45 ...ё СЃРјСЉСЂС‚С‚Р°}{72}{subsubsection.3.1.4}
                                                   % [1] [2])
 \tf@toc=\write5
 \openout5 = `"main (1).toc"'.
@@ -894,1015 +894,1022 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\colorbox' on input line 1013.
 
+[31] [32] [33]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1014.
+(hyperref)                removing `\colorbox' on input line 1069.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1015.
-
-[31] [32]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1023.
-
-[33]
-Overfull \hbox (8.99059pt too wide) in paragraph at lines 1121--1122
-\T2A/cmr/m/n/12 от-го-вор на въп-ро-са как ли-ри-чес-ки-ят ге-рой ще за-па-зи спо-ме-на за лю-би-ма-та. [][][][][][]
+[34]
+Overfull \hbox (0.5371pt too wide) in paragraph at lines 1125--1126
+[]\T2A/cmr/m/n/12 Финалът на Яво-ро-ва-та по-ема по вну-ше-ние при-ли-ча мно-го на фи-на-ла на Елин-Пелиновия
  []
 
-[34] [35]
+[35]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1125.
-
-
-Overfull \hbox (2.3248pt too wide) in paragraph at lines 1143--1144
-[]\T2A/cmr/m/n/12 Лирическо из-по-вед-но сти-хот-во-ре-ние (НЕ лю-бов-но). Аз-формата да-ва въз-мож-ност за пости-
- []
+(hyperref)                removing `\colorbox' on input line 1130.
 
 [36] [37]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1199.
+(hyperref)                removing `\colorbox' on input line 1183.
 
-[38] [39] [40]
+[38]
+Overfull \hbox (8.99059pt too wide) in paragraph at lines 1281--1282
+\T2A/cmr/m/n/12 от-го-вор на въп-ро-са как ли-ри-чес-ки-ят ге-рой ще за-па-зи спо-ме-на за лю-би-ма-та. [][][][][][]
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1316.
-
-[41] [42] [43]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1433.
-
-[44] [45]
+[39] [40]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1499.
+(hyperref)                removing `\colorbox' on input line 1285.
 
-[46]
-Overfull \hbox (10.49985pt too wide) in paragraph at lines 1564--1565
+
+Overfull \hbox (2.3248pt too wide) in paragraph at lines 1303--1304
+[]\T2A/cmr/m/n/12 Лирическо из-по-вед-но сти-хот-во-ре-ние (НЕ лю-бов-но). Аз-формата да-ва въз-мож-ност за пости-
+ []
+
+[41] [42]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 1359.
+
+[43] [44] [45]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 1476.
+
+[46] [47] [48]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 1593.
+
+[49] [50]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 1659.
+
+[51]
+Overfull \hbox (10.49985pt too wide) in paragraph at lines 1724--1725
 []\T2A/cmr/m/n/12 Финалната част на сти-хот-во-ре-ни-е-то утвър-ж-да-ва устой-чи-вост-та на вя-ра-та въп-ре-ки предиз-
  []
 
-[47]
+[52]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1569.
+(hyperref)                removing `\colorbox' on input line 1729.
 
-[48] [49] [50]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1660.
-
-[51] [52] [53]
+[53] [54] [55]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1718.
+(hyperref)                removing `\colorbox' on input line 1820.
 
-[54] [55] [56]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1791.
-
-[57] [58]
+[56] [57] [58]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1835.
+(hyperref)                removing `\colorbox' on input line 1878.
 
-[59] [60]
+[59] [60] [61]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 1974.
+(hyperref)                removing `\colorbox' on input line 1951.
 
-[61] [62] [63]
+[62] [63]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 1995.
+
+[64] [65]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 2134.
+
+[66] [67] [68]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2059.
+(Font)              <5> on input line 2219.
 
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2059--2106
-[] 
- []
-
-[64]
-
-Package array Warning: Column L is already defined on input line 2110.
-
-
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2115--2162
-[] 
- []
-
-[65]
-
-Package array Warning: Column L is already defined on input line 2166.
-
-
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2171--2218
-[] 
- []
-
-[66]
-
-Package array Warning: Column L is already defined on input line 2222.
-
-
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2227--2273
-[] 
- []
-
-[67]
-
-Package array Warning: Column L is already defined on input line 2277.
-
-
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2282--2328
-[] 
- []
-
-[68]
-
-Package array Warning: Column L is already defined on input line 2333.
-
-
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2338--2385
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2219--2266
 [] 
  []
 
 [69]
 
-Package array Warning: Column L is already defined on input line 2389.
+Package array Warning: Column L is already defined on input line 2270.
 
 
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2394--2441
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2275--2322
 [] 
  []
 
 [70]
 
-Package array Warning: Column L is already defined on input line 2445.
+Package array Warning: Column L is already defined on input line 2326.
 
 
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2450--2496
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2331--2378
 [] 
  []
 
 [71]
 
-Package array Warning: Column L is already defined on input line 2499.
+Package array Warning: Column L is already defined on input line 2382.
 
 
-Overfull \hbox (48.07167pt too wide) in paragraph at lines 2504--2550
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2387--2433
 [] 
  []
 
-[72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
-Underfull \hbox (badness 10000) in paragraph at lines 3199--3204
+[72]
+
+Package array Warning: Column L is already defined on input line 2437.
+
+
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2442--2488
+[] 
+ []
+
+[73]
+
+Package array Warning: Column L is already defined on input line 2493.
+
+
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2498--2545
+[] 
+ []
+
+[74]
+
+Package array Warning: Column L is already defined on input line 2549.
+
+
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2554--2601
+[] 
+ []
+
+[75]
+
+Package array Warning: Column L is already defined on input line 2605.
+
+
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2610--2656
+[] 
+ []
+
+[76]
+
+Package array Warning: Column L is already defined on input line 2659.
+
+
+Overfull \hbox (48.07167pt too wide) in paragraph at lines 2664--2710
+[] 
+ []
+
+[77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3199--3204
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3205--3207
+Underfull \hbox (badness 10000) in paragraph at lines 3365--3367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3208--3210
+Underfull \hbox (badness 10000) in paragraph at lines 3368--3370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3211--3213
+Underfull \hbox (badness 10000) in paragraph at lines 3371--3373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3214--3216
+Underfull \hbox (badness 10000) in paragraph at lines 3374--3376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3217--3219
+Underfull \hbox (badness 10000) in paragraph at lines 3377--3379
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3220--3222
+Underfull \hbox (badness 10000) in paragraph at lines 3380--3382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3223--3225
+Underfull \hbox (badness 10000) in paragraph at lines 3383--3385
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3231--3233
+Underfull \hbox (badness 10000) in paragraph at lines 3391--3393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3234--3236
+Underfull \hbox (badness 10000) in paragraph at lines 3394--3396
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3237--3239
+Underfull \hbox (badness 10000) in paragraph at lines 3397--3399
 
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 3240--3242
+Underfull \hbox (badness 1297) in paragraph at lines 3400--3402
 []\T2A/cmr/m/n/12 Или ще тръг-на бос по връх-че-та-та на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3240--3242
+Underfull \hbox (badness 10000) in paragraph at lines 3400--3402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3243--3245
+Underfull \hbox (badness 10000) in paragraph at lines 3403--3405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3277--3306
+Underfull \hbox (badness 10000) in paragraph at lines 3437--3466
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3314--3317
+Underfull \hbox (badness 10000) in paragraph at lines 3474--3477
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3318--3343
+Underfull \hbox (badness 10000) in paragraph at lines 3478--3503
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82]
-Underfull \hbox (badness 10000) in paragraph at lines 3370--3388
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 3530--3548
 
  []
 
-[83]
-Underfull \hbox (badness 10000) in paragraph at lines 3409--3442
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3409--3442
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 3569--3602
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3409--3442
+Underfull \hbox (badness 10000) in paragraph at lines 3569--3602
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3445--3485
+Underfull \hbox (badness 10000) in paragraph at lines 3569--3602
 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 3445--3485
+Underfull \hbox (badness 10000) in paragraph at lines 3605--3645
+
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 3605--3645
 \T2A/cmr/m/n/12 Тъй мъл-ве-ше пре-ди сто и двай-сет го-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3445--3485
+Underfull \hbox (badness 10000) in paragraph at lines 3605--3645
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3407--3488
+Underfull \hbox (badness 10000) in paragraph at lines 3567--3648
 
  []
 
-[84] [85] [86] [87]
-Underfull \hbox (badness 10000) in paragraph at lines 3607--3616
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3607--3616
+[89] [90] [91] [92]
+Underfull \hbox (badness 10000) in paragraph at lines 3767--3776
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3638--3670
-
- []
-
-[88] [89]
-Underfull \hbox (badness 10000) in paragraph at lines 3718--3752
+Underfull \hbox (badness 10000) in paragraph at lines 3767--3776
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3755--3771
+Underfull \hbox (badness 10000) in paragraph at lines 3798--3830
 
  []
 
-[90] [91]
-Underfull \hbox (badness 10000) in paragraph at lines 3892--3925
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3892--3925
+[93] [94]
+Underfull \hbox (badness 10000) in paragraph at lines 3878--3912
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3892--3925
+Underfull \hbox (badness 10000) in paragraph at lines 3915--3931
+
+ []
+
+[95] [96]
+Underfull \hbox (badness 10000) in paragraph at lines 4052--4085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3928--3968
+Underfull \hbox (badness 10000) in paragraph at lines 4052--4085
 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 3928--3968
+Underfull \hbox (badness 10000) in paragraph at lines 4052--4085
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4088--4128
+
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 4088--4128
 \T2A/cmr/m/n/12 Тъй мъл-ве-ше пре-ди сто и двай-сет го-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3928--3968
+Underfull \hbox (badness 10000) in paragraph at lines 4088--4128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3890--3971
+Underfull \hbox (badness 10000) in paragraph at lines 4050--4131
 
  []
 
-[92] [93]
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
+[97] [98]
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3993--4037
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
+Underfull \hbox (badness 10000) in paragraph at lines 4153--4197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4040--4084
-
- []
-
-[94] [95] [96] [97] [98] [99]
-Underfull \hbox (badness 10000) in paragraph at lines 4344--4378
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4344--4378
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4244
+
+ []
+
+[99] [100] [101] [102] [103] [104]
+Underfull \hbox (badness 10000) in paragraph at lines 4504--4538
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4344--4378
+Underfull \hbox (badness 10000) in paragraph at lines 4504--4538
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4344--4378
+Underfull \hbox (badness 10000) in paragraph at lines 4504--4538
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4344--4378
+Underfull \hbox (badness 10000) in paragraph at lines 4504--4538
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4381--4408
+Underfull \hbox (badness 10000) in paragraph at lines 4504--4538
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4381--4408
+Underfull \hbox (badness 10000) in paragraph at lines 4541--4568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4381--4408
+Underfull \hbox (badness 10000) in paragraph at lines 4541--4568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4381--4408
+Underfull \hbox (badness 10000) in paragraph at lines 4541--4568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4431--4454
+Underfull \hbox (badness 10000) in paragraph at lines 4541--4568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4431--4454
+Underfull \hbox (badness 10000) in paragraph at lines 4591--4614
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4431--4454
+Underfull \hbox (badness 10000) in paragraph at lines 4591--4614
 
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 4431--4454
+Underfull \hbox (badness 10000) in paragraph at lines 4591--4614
+
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 4591--4614
 \T2A/cmr/m/n/12 Но кой ви знай, че спи-те в тез по-ле-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4431--4454
+Underfull \hbox (badness 10000) in paragraph at lines 4591--4614
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4457--4474
+Underfull \hbox (badness 10000) in paragraph at lines 4617--4634
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4457--4474
+Underfull \hbox (badness 10000) in paragraph at lines 4617--4634
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4457--4474
-
- []
-
-[100]
-Underfull \hbox (badness 10000) in paragraph at lines 4497--4524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4497--4524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4497--4524
-
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 4497--4524
-\T2A/cmr/m/n/12 Сега съм у до-ма, се-га съм пак по-ет
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4497--4524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4527--4554
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4527--4554
-
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 4527--4554
-\T2A/cmr/m/n/12 Сега съм у до-ма ^^V не съм тук стра-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4527--4554
-
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 4527--4554
-\T2A/cmr/m/n/12 Сега съм у до-ма ^^V учас-т-ник в рил-с-
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 4527--4554
-\T2A/cmr/m/n/12 да имам гроб, по-дир живот-синджир
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4527--4554
-
- []
-
-[101]
-Underfull \hbox (badness 10000) in paragraph at lines 4575--4584
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4575--4584
-
- []
-
-[102] [103] [104]
-Underfull \hbox (badness 10000) in paragraph at lines 4705--4722
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4705--4722
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4725--4733
+Underfull \hbox (badness 10000) in paragraph at lines 4617--4634
 
  []
 
 [105]
-Underfull \hbox (badness 10000) in paragraph at lines 4756--4784
+Underfull \hbox (badness 10000) in paragraph at lines 4657--4684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4756--4784
+Underfull \hbox (badness 10000) in paragraph at lines 4657--4684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4756--4784
+Underfull \hbox (badness 10000) in paragraph at lines 4657--4684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4787--4820
+Underfull \hbox (badness 2600) in paragraph at lines 4657--4684
+\T2A/cmr/m/n/12 Сега съм у до-ма, се-га съм пак по-ет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4657--4684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4787--4820
+Underfull \hbox (badness 10000) in paragraph at lines 4687--4714
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4787--4820
+Underfull \hbox (badness 10000) in paragraph at lines 4687--4714
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4787--4820
+Underfull \hbox (badness 1248) in paragraph at lines 4687--4714
+\T2A/cmr/m/n/12 Сега съм у до-ма ^^V не съм тук стра-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4687--4714
+
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 4687--4714
+\T2A/cmr/m/n/12 Сега съм у до-ма ^^V учас-т-ник в рил-с-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 4687--4714
+\T2A/cmr/m/n/12 да имам гроб, по-дир живот-синджир
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4687--4714
 
  []
 
 [106]
-Underfull \hbox (badness 10000) in paragraph at lines 4843--4855
+Underfull \hbox (badness 10000) in paragraph at lines 4735--4744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4858--4870
+Underfull \hbox (badness 10000) in paragraph at lines 4735--4744
 
  []
 
-[107]
-Underfull \hbox (badness 10000) in paragraph at lines 4951--4960
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4951--4960
+[107] [108] [109]
+Underfull \hbox (badness 10000) in paragraph at lines 4865--4882
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4963--4972
+Underfull \hbox (badness 10000) in paragraph at lines 4865--4882
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4963--4972
+Underfull \hbox (badness 10000) in paragraph at lines 4885--4893
 
  []
 
-[108]
-Underfull \hbox (badness 10000) in paragraph at lines 4995--5024
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4995--5024
+[110]
+Underfull \hbox (badness 10000) in paragraph at lines 4916--4944
 
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 4995--5024
+Underfull \hbox (badness 10000) in paragraph at lines 4916--4944
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4916--4944
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4947--4980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4947--4980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4947--4980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4947--4980
+
+ []
+
+[111]
+Underfull \hbox (badness 10000) in paragraph at lines 5003--5015
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5018--5030
+
+ []
+
+[112]
+Underfull \hbox (badness 10000) in paragraph at lines 5111--5120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5111--5120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5123--5132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5123--5132
+
+ []
+
+[113]
+Underfull \hbox (badness 10000) in paragraph at lines 5155--5184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5155--5184
+
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 5155--5184
 \T2A/cmr/m/n/12 Да ка-жем, се-га ми ока-
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 4995--5024
+Underfull \hbox (badness 5175) in paragraph at lines 5155--5184
 \T2A/cmr/m/n/12 ЅКак, ис-каш ли час да
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4995--5024
+Underfull \hbox (badness 10000) in paragraph at lines 5155--5184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5027--5056
+Underfull \hbox (badness 10000) in paragraph at lines 5187--5216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5027--5056
+Underfull \hbox (badness 10000) in paragraph at lines 5187--5216
 \T2A/cmr/m/n/12 Но все пак ще чув-с-т-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5027--5056
+Underfull \hbox (badness 10000) in paragraph at lines 5187--5216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5027--5056
+Underfull \hbox (badness 10000) in paragraph at lines 5187--5216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5059--5087
+Underfull \hbox (badness 10000) in paragraph at lines 5219--5247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5059--5087
+Underfull \hbox (badness 10000) in paragraph at lines 5219--5247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5059--5087
+Underfull \hbox (badness 10000) in paragraph at lines 5219--5247
 \T2A/cmr/m/n/12 А как ще щур-му-ва-те,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5059--5087
+Underfull \hbox (badness 10000) in paragraph at lines 5219--5247
 
  []
 
-[109] [110]
-Underfull \hbox (badness 10000) in paragraph at lines 5184--5193
+[114] [115]
+Underfull \hbox (badness 10000) in paragraph at lines 5344--5353
 
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 5184--5193
+Underfull \hbox (badness 3128) in paragraph at lines 5344--5353
 \T2A/cmr/m/n/12 И плам-ва дво-ен пла-мък, де-то се до-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5184--5193
+Underfull \hbox (badness 10000) in paragraph at lines 5344--5353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5196--5200
+Underfull \hbox (badness 10000) in paragraph at lines 5356--5360
 
  []
 
-[111] [112] [113] [114] [115]
-Overfull \hbox (1.34464pt too wide) in paragraph at lines 6066--6068
+[116] [117] [118] [119] [120]
+Overfull \hbox (1.34464pt too wide) in paragraph at lines 6226--6228
 $[]$ 
- []
-
-[116] [117]
-<diagram (1).png, id=1155, 497.4585pt x 167.4255pt>
-File: diagram (1).png Graphic file (type png)
-<use diagram (1).png>
-Package pdftex.def Info: diagram (1).png  used on input line 6207.
-(pdftex.def)             Requested size: 483.69687pt x 162.79851pt.
- [118 <./diagram (1).png>] [119]
-Overfull \hbox (7.34317pt too wide) in paragraph at lines 6285--6287
-$[]$ 
- []
-
-[120]
-Underfull \hbox (badness 10000) in paragraph at lines 6358--6360
-
  []
 
 [121] [122]
-Underfull \hbox (badness 10000) in paragraph at lines 6477--6479
+<diagram (1).png, id=1176, 497.4585pt x 167.4255pt>
+File: diagram (1).png Graphic file (type png)
+<use diagram (1).png>
+Package pdftex.def Info: diagram (1).png  used on input line 6367.
+(pdftex.def)             Requested size: 483.69687pt x 162.79851pt.
+ [123 <./diagram (1).png>] [124]
+Overfull \hbox (7.34317pt too wide) in paragraph at lines 6445--6447
+$[]$ 
+ []
+
+[125]
+Underfull \hbox (badness 10000) in paragraph at lines 6518--6520
+
+ []
+
+[126] [127]
+Underfull \hbox (badness 10000) in paragraph at lines 6637--6639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6481--6482
+Underfull \hbox (badness 10000) in paragraph at lines 6641--6642
 
  []
 
-[123]
-Overfull \hbox (16.50262pt too wide) in paragraph at lines 6492--6494
+[128]
+Overfull \hbox (16.50262pt too wide) in paragraph at lines 6652--6654
 $[]$ 
  []
 
 
-Overfull \hbox (2.61049pt too wide) in paragraph at lines 6502--6513
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 6662--6673
  [] 
  []
 
 
-Overfull \hbox (2.61049pt too wide) in paragraph at lines 6516--6530
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 6676--6690
  [] 
  []
 
-[124]
-Overfull \hbox (1.34464pt too wide) in paragraph at lines 6549--6551
+[129]
+Overfull \hbox (1.34464pt too wide) in paragraph at lines 6709--6711
 $[]$ 
  []
 
-[125] [126]
-Overfull \hbox (7.46672pt too wide) in paragraph at lines 6698--6702
+[130] [131]
+Overfull \hbox (7.46672pt too wide) in paragraph at lines 6858--6862
 []$ \T2A/cmr/bx/n/12 (В) \T2A/cmr/m/n/12 мо-ти-ви гра-ви-ра-не-то би-ло един от пред-по-чи-та-ни-те на-чи-ни за $[]$
  []
 
-[127]
-Overfull \hbox (13.91579pt too wide) in paragraph at lines 6751--6758
+[132]
+Overfull \hbox (13.91579pt too wide) in paragraph at lines 6911--6918
 \T2A/cmr/bx/n/12 В) \T2A/cmr/m/n/12 Наско-ро бив-ши-ят ми-нис-тър и не-го-ви съ-миш-ле-ни-ци учре-ди-ха цен-тър за евро-атлантическа
  []
 
 
-Overfull \hbox (3.58153pt too wide) in paragraph at lines 6761--6768
+Overfull \hbox (3.58153pt too wide) in paragraph at lines 6921--6928
 \T2A/cmr/bx/n/12 А) \T2A/cmr/m/n/12 Ко-руп-ци-о-нен скан-дал, в кой-то са за-ме-се-ни и чуж-ди служ-би, тре-се северно-македонската
  []
 
-[128] [129] [130]
-Overfull \hbox (98.11928pt too wide) in paragraph at lines 6912--6924
+[133] [134] [135]
+Overfull \hbox (98.11928pt too wide) in paragraph at lines 7072--7084
 \T2A/cmr/m/n/12 постъп-ка-та на май-ка си, но $[]$
  []
 
-[131] [132]
-Overfull \hbox (1.34464pt too wide) in paragraph at lines 6973--6975
+[136] [137]
+Overfull \hbox (1.34464pt too wide) in paragraph at lines 7133--7135
 $[]$ 
  []
 
-[133] [134] [135] [136] [137] [138] [139] [140] [141]
-Underfull \hbox (badness 10000) in paragraph at lines 7492--7498
+[138] [139] [140] [141] [142] [143] [144] [145] [146]
+Underfull \hbox (badness 10000) in paragraph at lines 7652--7658
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7531--7533
+Underfull \hbox (badness 10000) in paragraph at lines 7691--7693
 
  []
 
-[142]
-Underfull \hbox (badness 10000) in paragraph at lines 7544--7546
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7557--7559
+[147]
+Underfull \hbox (badness 10000) in paragraph at lines 7704--7706
 
  []
 
 
-Overfull \hbox (80.39325pt too wide) in paragraph at lines 7562--7567
+Underfull \hbox (badness 10000) in paragraph at lines 7717--7719
+
+ []
+
+
+Overfull \hbox (80.39325pt too wide) in paragraph at lines 7722--7727
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7570--7572
+Underfull \hbox (badness 10000) in paragraph at lines 7730--7732
 
  []
 
-[143] [144]
-Underfull \hbox (badness 10000) in paragraph at lines 7676--7678
+[148] [149]
+Underfull \hbox (badness 10000) in paragraph at lines 7836--7838
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7689--7691
+Underfull \hbox (badness 10000) in paragraph at lines 7849--7851
 
  []
 
-[145] [146] [147]
-Underfull \hbox (badness 10000) in paragraph at lines 7903--7905
+[150] [151] [152]
+Underfull \hbox (badness 10000) in paragraph at lines 8063--8065
 
  []
 
-[148] [149] [150]
-Overfull \hbox (47.9605pt too wide) in paragraph at lines 7991--8001
+[153] [154] [155]
+Overfull \hbox (47.9605pt too wide) in paragraph at lines 8151--8161
 \T2A/cmr/bx/n/12 ти-ра-не. []
  []
 
 
-Overfull \hbox (254.61133pt too wide) in paragraph at lines 8004--8018
+Overfull \hbox (254.61133pt too wide) in paragraph at lines 8164--8178
 \T2A/cmr/bx/n/12 бъ-де кри-ти-чен и взис-ка-те-лен към се-бе си. []
  []
 
-[151] (D:\texProgram\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypatterns.code.tex
+[156] (D:\texProgram\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2026-08-01 v3.1.12 (3.1.12)
  (D:\texProgram\tex/generic/pgf/libraries\pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2026-08-01 v3.1.12 (3.1.12)
-)) [152]
-Underfull \hbox (badness 10000) in paragraph at lines 8141--8144
+)) [157]
+Underfull \hbox (badness 10000) in paragraph at lines 8301--8304
 
  []
 
-[153]
-Underfull \hbox (badness 10000) in paragraph at lines 8169--8171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8189--8191
-
- []
-
-[154] [155]
-Overfull \hbox (2.61049pt too wide) in paragraph at lines 8276--8282
- []
- []
-
-[156] [157] [158] [159]
-Underfull \hbox (badness 10000) in paragraph at lines 8501--8503
+[158]
+Underfull \hbox (badness 10000) in paragraph at lines 8329--8331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8527--8529
+Underfull \hbox (badness 10000) in paragraph at lines 8349--8351
 
  []
 
-[160] [161] [162] [163] [164]
+[159] [160]
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 8436--8442
+ []
+ []
+
+[161] [162] [163] [164]
+Underfull \hbox (badness 10000) in paragraph at lines 8661--8663
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8687--8689
+
+ []
+
+[165] [166] [167] [168] [169]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 8766.
- [165] [166]
-Underfull \hbox (badness 10000) in paragraph at lines 8884--8886
+(Font)              <7> on input line 8926.
+ [170] [171]
+Underfull \hbox (badness 10000) in paragraph at lines 9044--9046
 
  []
 
-[167]
-Underfull \hbox (badness 10000) in paragraph at lines 9017--9037
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9017--9037
+[172]
+Underfull \hbox (badness 10000) in paragraph at lines 9177--9197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9017--9037
+Underfull \hbox (badness 10000) in paragraph at lines 9177--9197
 
  []
 
-[168] [169]
-Overfull \hbox (2.99998pt too wide) in paragraph at lines 9176--9182
+
+Underfull \hbox (badness 10000) in paragraph at lines 9177--9197
+
+ []
+
+[173] [174]
+Overfull \hbox (2.99998pt too wide) in paragraph at lines 9336--9342
 [] 
  []
 
-[170] [171]
-Overfull \hbox (1.34464pt too wide) in paragraph at lines 9305--9307
+[175] [176]
+Overfull \hbox (1.34464pt too wide) in paragraph at lines 9465--9467
 $[]$ 
  []
 
 
-Overfull \hbox (5.16127pt too wide) in paragraph at lines 9347--9353
+Overfull \hbox (5.16127pt too wide) in paragraph at lines 9507--9513
 \T2A/cmr/bx/n/12 5. В кой от при-ме-ри-те пра-вил-но са упот-ре-бе-ни фор-ми-те кой/кого, ня-кой/някого,
  []
 
-[172] [173] [174]
-Overfull \hbox (7.34317pt too wide) in paragraph at lines 9485--9487
+[177] [178] [179]
+Overfull \hbox (7.34317pt too wide) in paragraph at lines 9645--9647
 $[]$ 
  []
 
-[175] [176] [177] [178] (main (1).aux)
+[180] [181] [182] [183] (main (1).aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
  ***********
 Package rerunfilecheck Info: File `"main (1)".out' has not changed.
-(rerunfilecheck)             Checksum: 1F44659C09AFF6A2D6CADC60E92AB9D5;43850.
+(rerunfilecheck)             Checksum: 65A19809E69659F3EE4F8EC0007B6838;43845.
  )
 (\end occurred inside a group at level 12)
 
-### simple group (level 12) entered at line 9467 ({)
-### simple group (level 11) entered at line 9466 ({)
-### simple group (level 10) entered at line 9465 ({)
-### simple group (level 9) entered at line 9464 ({)
-### simple group (level 8) entered at line 9463 ({)
-### simple group (level 7) entered at line 9462 ({)
-### simple group (level 6) entered at line 9461 ({)
-### simple group (level 5) entered at line 9460 ({)
-### simple group (level 4) entered at line 9459 ({)
-### simple group (level 3) entered at line 9458 ({)
-### simple group (level 2) entered at line 9457 ({)
-### simple group (level 1) entered at line 9456 ({)
+### simple group (level 12) entered at line 9627 ({)
+### simple group (level 11) entered at line 9626 ({)
+### simple group (level 10) entered at line 9625 ({)
+### simple group (level 9) entered at line 9624 ({)
+### simple group (level 8) entered at line 9623 ({)
+### simple group (level 7) entered at line 9622 ({)
+### simple group (level 6) entered at line 9621 ({)
+### simple group (level 5) entered at line 9620 ({)
+### simple group (level 4) entered at line 9619 ({)
+### simple group (level 3) entered at line 9618 ({)
+### simple group (level 2) entered at line 9617 ({)
+### simple group (level 1) entered at line 9616 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23950 strings out of 467392
- 441622 string characters out of 5420612
+ 23955 strings out of 467392
+ 441662 string characters out of 5420612
  848054 words of memory out of 5000000
  52581 multiletter control sequences out of 15000+600000
  643697 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,11n,104p,3125b,794s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,11n,104p,3355b,794s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0800.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\Users\asus1\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><D:/texProgram/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "main (1).pdf" (179 pages, 994422 bytes).
+Output written on "main (1).pdf" (184 pages, 1014574 bytes).
 PDF statistics:
- 2196 PDF objects out of 2487 (max. 8388607)
- 309 named destinations out of 1000 (max. 500000)
+ 2219 PDF objects out of 2487 (max. 8388607)
+ 314 named destinations out of 1000 (max. 500000)
  1050 words of extra memory for PDF output out of 10000 (max. 10000000)
 

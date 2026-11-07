@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1793910538.11454 "d:/tex/main (1).tex" "main (1).pdf" "main (1)" 1793910541.50586 0
+["pdflatex"] 1794063310.92328 "d:/tex/main (1).tex" "main (1).pdf" "main (1)" 1794063316.26368 0
   "C:/Users/asus1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1791985260 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/asus1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1791049996 14064 3a4c8d3fc073f431b8d819b36c3eed25 ""
   "C:/Users/asus1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1440.pk" 1791050000 16968 dcce545e1c08786eeaa944d6312841c1 ""
@@ -178,12 +178,12 @@
   "D:/texProgram/tex/latex/tools/tabularx.sty" 1780057721 7243 98a9e0737a56460d15d6b41be1ecc3b8 ""
   "D:/texProgram/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "D:/texProgram/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "d:/tex/main (1).tex" 1793910533 808998 c1554142641ab2e3b5588303cd15ef74 ""
+  "d:/tex/main (1).tex" 1794063310 840561 f1735bd6ed4366a59d047316c5507946 ""
   "diagram (1).png" 1791048819 99736 7ba426aa8027b953936186638bd48de3 ""
-  "main (1).aux" 1793910541 23749 15e189af862f5e25a702587676069774 "pdflatex"
-  "main (1).out" 1793910541 43850 1f44659c09aff6a2d6cadc60e92ab9d5 "pdflatex"
-  "main (1).tex" 1793910533 808998 c1554142641ab2e3b5588303cd15ef74 ""
-  "main (1).toc" 1793910541 18173 e394bb433d23daa6a626ddaea40d1b9d "pdflatex"
+  "main (1).aux" 1794063315 23752 e39e52a3f48d3235b51c75afa0391a95 "pdflatex"
+  "main (1).out" 1794063315 43845 65a19809e69659f3ee4f8ec0007b6838 "pdflatex"
+  "main (1).tex" 1794063310 840561 f1735bd6ed4366a59d047316c5507946 ""
+  "main (1).toc" 1794063315 18176 ff9ab5fd09fe8321f218438e4deea703 "pdflatex"
   (generated)
   "main (1).aux"
   "main (1).log"
